@@ -1,0 +1,51 @@
+#body1 {
+  background-color: black;
+  color: cyan;
+}
+#level1 {
+  background-color: black;
+  color: cyan;
+}
+#level2 {
+  background-color: black;
+  color: cyan;
+}
+#title {
+  font-size: 30pt;
+}
+#home {
+  float: right;
+  color: #ff00a1;
+  padding-left: 5pt;
+}
+#solo {
+  color: #ff00a1;
+}
+#myweb {
+  color: #ff00a1;
+}
+#slider {
+  text-align: center;
+  height: 150pt;
+  width: 200pt;
+  border-radius: 5pt;
+}
+#bt {
+  width: 50pt;
+  background-color: black;
+  margin-top: 10pt;
+  border-color: black;
+  box-shadow: 1pt 2pt 2pt;
+}
+#nam {
+  background-color: black;
+  text-align-last: center;
+  border-color: black;
+  height: 30pt;
+}
+.copyright {
+  color: cyan;
+  text-align: right;
+  font-size: 13pt;
+  font-family: cursive,"Handlee";
+}

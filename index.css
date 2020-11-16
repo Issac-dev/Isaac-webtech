@@ -1,0 +1,68 @@
+#body {
+  background-color: black;
+  color: pink;
+}
+#myservice {
+  color: #ff00a1;
+}
+#title {
+  color: black;
+  font-weight: bold;
+  width: 15em;
+  font-size: 100pt;
+  text-align: center;
+  font-family: cursive;
+  background:linear-gradient(#95caf3,#00ffde);
+}
+#name {
+  font-size: 35pt;
+  text-shadow: 1pt 2pt 2pt;
+  color: #ff008b;
+}
+#tab {
+  height: 57pt;
+}
+#head {
+  box-shadow: 0pt 0pt 0pt 2pt;
+}
+#body1 {
+  background-color: black;
+  color: cyan;
+}
+#level {
+  height: 270pt;
+  overflow: scroll;
+  background-color: black;
+}
+#book {
+  padding-top: -200pt;
+  font-size: 15pt;
+  text-align: center;
+  width: 50pt;
+  color: #ff00a1;
+  background-color: cyan;
+}
+#port {
+  padding-top: -200pt;
+  font-size: 15pt;
+  text-align: center;
+  width: 50pt;
+  color: #ff00a1;
+  background-color: cyan;
+}
+#contacts {
+  padding-top: -200pt;
+  font-size: 15pt;
+  text-align: center;
+  width: 50pt;
+  color: #ff00a1;
+  background-color: cyan;
+}
+#settings {
+  padding-top: -200pt;
+  font-size: 15pt;
+  text-align: center;
+  width: 50pt;
+  color: #ff00a1;
+  background-color: cyan;
+}

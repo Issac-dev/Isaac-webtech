@@ -1,0 +1,83 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolios.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body id="body1">
+     <div id="level1" class="container">
+       <div id="level2" class="jumbotron">
+         <center>
+           <h1>My Portfolios <a href="index.html"><i class="fa fa-home" id="home"></i></a></h1>
+           <p>Here are some of my certificates and works.</br>
+            You can follow me on sololearn @ <a id="solo" href="https://www.sololearn.com/Profile/15034257/?ref=app">Oladipo Isaac</a></br>
+          <img id="slider" src="HTML_certificate.jpg">
+          </br>
+          <textarea id="nam">HTML</textarea>
+           </br>
+             <button id="bt" onclick="prev()">< </button>   <button id="bt" onclick="next()"> ></button>
+             </br>
+             </br>
+           <script>
+              var images = ["HTML_certificate.jpg","CSS_certificate.jpg","JavaScript_certificate.jpg","jQuery_certificate.jpg","react_certificate.jpg","Swift_certificate.jpg","SQL_certificate.jpg","PHP_certificate.jpg","Python_certificate.jpg"]
+            var nam1 = ["HTML","CSS","JavaScript","jQuery","react","Swift","SQL","PHP","Python"]
+var num = 0;
+function next() {
+    var slider = document.getElementById('slider');
+    var slid = document.getElementById("nam")
+    num++;
+    if(num >= images.length) {
+        num = 0;
+    }
+    slider.src = images[num];
+    slid.value = nam1[num]
+}
+function prev() {
+    var slider = document.getElementById('slider');
+    var slid = document.getElementById("nam")
+    num--;
+    if(num < 0) {
+        num = images.length-1;
+    }
+    slider.src = images[num];
+    slid.value = nam1[num]
+}
+           </script>
+           You can also check out a website that I own @ <a id="myweb" href="https://issac-dev.github.io/dailyword/">www.isaactech.ga</a></br>
+           </br>
+           <h2>Education</h2></br>
+           <p>
+           1. WASSCE certificate:- Oriwu Senior Model College</br>
+           2.Bsc.Petroleum and gas engineering:- University of Lagos (current).</p></br>
+           <h2>Solo Projects</h2></br>
+           <p>Sodoku Puzzle solver</br>
+           Tic-Tac-Toe game</br>
+           Chatbot</br>
+           Savings Assistant bot</b>
+           Relative molecular mass</br>
+           UNILAG aggregate solver</br>
+           Dailyword (christian site)</br>
+           And more....
+           </p>
+            </p>
+         <p><a id="myweb" href="about.html">About</a></p>
+         </center>
+       </div>
+     </div>
+     <div class="copyright">
+        &copyAll rights reserved,MyApp.com,2020
+     </div>
+  </body>
+  </html>
