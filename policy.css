@@ -1,0 +1,30 @@
+#body1 {
+  background-color: white;
+  color: black;
+}
+#level1 {
+  background-color: white;
+  color: black;
+}
+#level2 {
+  background-color: white;
+  color: black;
+}
+#title {
+  font-size: 30pt;
+}
+#home {
+  float: right;
+  color: #ff00a1;
+}
+#home1 {
+  color: #ff00a1;
+  padding-left: 8pt;
+  font-weight: bold;
+}
+.copyright {
+  color: black;
+  text-align: right;
+  font-size: 13pt;
+  font-family: cursive,"Handlee";
+}
